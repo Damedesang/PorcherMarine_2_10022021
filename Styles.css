@@ -1,10 +1,22 @@
 /* #region mediaqueries */
 
 /* Adaptation pour téléphone */
-@media screen and (max-width:768px) {}
+@media screen and (max-device-width:480px) {
+
+    .logo {
+        width: 305px;
+        height: 100px;
+    }
+
+    .login a:link {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+}
 
 /* Adaptation pour tablette */
-@media screen and (min-width:769px) and (max-width:991px) {}
+@media screen and (min-width:415px) and (max-width:991px) {}
 
 /* #endregion */
 
@@ -15,7 +27,12 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #0065FC;
+}
+
+.menuhautdroite {
+    margin-left: auto;
 }
 
 .menuhaut {
@@ -25,6 +42,15 @@ header {
 nav ul li {
     list-style-type: none;
     padding-right: 25px;
+}
+
+.login {
+    margin-top: 15px;
+}
+
+.login a:link {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* #endregion */
