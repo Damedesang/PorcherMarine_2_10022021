@@ -1,6 +1,36 @@
-/* #region head*/
-/* #endregion*/
-/* #region body*/
-/* #endregion*/
-/* #region footer*/
-/* #endregion*/
+/* #region mediaqueries */
+
+/* Adaptation pour téléphone */
+@media screen and (max-width:768px) {}
+
+/* Adaptation pour tablette */
+@media screen and (min-width:769px) and (max-width:991px) {}
+
+/* #endregion */
+
+/* #region generique */
+/* #endregion */
+
+/* #region header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuhaut {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+/* #endregion */
+
+/* #region content */
+/* #endregion */
+
+/* #region footer */
+/* #endregion */
