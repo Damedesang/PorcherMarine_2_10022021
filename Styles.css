@@ -136,17 +136,22 @@ p {
 }
 
 .barrerecherche {
+    display: flex;
     border: none;
     max-width: 400px;
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     padding-right: 0px;
 }
 
-.fas fa-map-marker-alt {
+.icone1 {
     border: none;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     background-color: #F2F2F2;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .texterecherche {
