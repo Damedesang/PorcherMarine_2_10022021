@@ -1,4 +1,29 @@
 /* #region generique */
+
+@font-face {
+    font-family: "Raleway";
+    src: ('Police/Raleway-Black.ttf');
+    src: ('Police/Raleway-BlackItalic.ttf');
+    src: ('Police/Raleway-Bold.ttf');
+    src: ('Police/Raleway-BoldItalic.ttf');
+    src: ('Police/Raleway-ExtraBold.ttf');
+    src: ('Police/Raleway-ExtraBoldItalic.ttf');
+    src: ('Police/Raleway-ExtraLight.ttf');
+    src: ('Police/Raleway-ExtraLightItalic.ttf');
+    src: ('Police/Raleway-Italic.ttf');
+    src: ('Police/Raleway-Italic-VariableFont_wght.ttf');
+    src: ('Police/Raleway-Light.ttf');
+    src: ('Police/Raleway-LightItalic.ttf');
+    src: ('Police/Raleway-Medium.ttf');
+    src: ('Police/Raleway-MediumItalic.ttf');
+    src: ('Police/Raleway-Regular.ttf');
+    src: ('Police/Raleway-SemiBold.ttf');
+    src: ('Police/Raleway-SemiBoldItalic.ttf');
+    src: ('Police/Raleway-Thin.ttf');
+    src: ('Police/Raleway-ThinItalic.ttf');
+    src: ('Police/Raleway-VariableFont_wght.ttf');
+}
+
 /* #endregion */
 
 /* #region header */
@@ -6,6 +31,7 @@
 header {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .menuhautdroite {
@@ -22,6 +48,7 @@ nav ul li {
 
 .login {
     margin-top: 15px;
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #0065FC;
 }
@@ -31,6 +58,7 @@ nav ul li {
     color: #0065FC;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
 nav a {
@@ -38,13 +66,14 @@ nav a {
     color: black;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
 nav a:link {
     text-decoration: none;
     color: black;
     padding-left: 20px;
-    padding-right: 20px;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
 nav a:visited {
@@ -52,6 +81,7 @@ nav a:visited {
     color: black;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
 nav a:focus {
@@ -61,6 +91,7 @@ nav a:focus {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
 nav a:hover {
@@ -70,6 +101,7 @@ nav a:hover {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
 nav a:active {
@@ -79,12 +111,22 @@ nav a:active {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 
 /* #endregion */
 
-/* #region content */
+/* #region hebergements */
+
+h1 {
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+}
+
 /* #endregion */
 
 /* #region footer */
