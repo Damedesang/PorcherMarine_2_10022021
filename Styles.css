@@ -24,6 +24,14 @@
     src: ('Police/Raleway-VariableFont_wght.ttf');
 }
 
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
 /* #endregion */
 
 /* #region header */
@@ -124,7 +132,45 @@ h1 {
 }
 
 p {
-    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+    font-family: "Regular", Arial, Helvetica, sans-serif;
+}
+
+.barrerecherche {
+    border: none;
+    max-width: 400px;
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    padding-right: 0px;
+}
+
+.fas fa-map-marker-alt {
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+.texterecherche {
+    border: solid 0.5px #F2F2F2;
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 0px;
+}
+
+.boutonrecherche {
+    border: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 0px;
+
 }
 
 /* #endregion */
