@@ -143,7 +143,7 @@ p {
     padding-right: 0px;
 }
 
-.icone1 {
+.icone {
     border: none;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
@@ -177,6 +177,21 @@ p {
     margin-left: 0px;
 
 }
+
+.boxfiltres {
+    display: flex;
+}
+
+.filtres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formfiltres {
+    border-radius: 15%;
+}
+
 
 /* #endregion */
 
