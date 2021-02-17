@@ -319,7 +319,7 @@ h2 {
     line-height: 0px;
 }
 
-.partieherbergement img {
+.resultats img {
     max-width: 100%;
     max-height: 60%;
     border-top-left-radius: 15px;
@@ -348,14 +348,47 @@ h2 {
 .populaire {
     background-color: #F2F2F2;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 30px;
+    padding-top: 20px;
+    width: 30%;
 }
 
 .populairetitre {
     display: flex;
-    flex-direction: space-between;
+    justify-content: space-between;
 }
+
+.pop {
+    display: flex;
+    flex-direction: column;
+}
+
+.popimg {
+    max-height: 150px;
+    max-width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.populaire img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.poplogement {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
 
 /* #endregion */
 
