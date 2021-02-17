@@ -186,12 +186,50 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: solid 2px;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .formfiltres {
-    border-radius: 15%;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
+h2 {
+    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fas fa-child {
+    background-color: #0065FC;
+}
+
+.boxfiltres i {
+    background-color: #DEEBFF;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.custom-checkbox input[type="checkbox"],
+.custom-checkbox .checked {
+    display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked~.checked {
+    display: inline-block;
+}
+
+.custom-checkbox input[type="checkbox"]:checked~.unchecked {
+    display: none;
+}
 
 /* #endregion */
 
