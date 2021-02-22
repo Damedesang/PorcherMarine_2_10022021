@@ -395,6 +395,45 @@ h2 {
 
 /* #endregion */
 
+/* #region activité */
+.actotal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.actbloc1 {
+    display: flex;
+    max-width: 23%;
+    height: 100px;
+}
+
+.actbloc2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 23%;
+    height: 100px;
+}
+
+.blocacti {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px linear-gradient(grey, white);
+}
+
+.actotal img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 100%;
+}
+
+.actotal h2 {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* #endregion */
+
 /* #region footer */
 
 /* #endregion */
