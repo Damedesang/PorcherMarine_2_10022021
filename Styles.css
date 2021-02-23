@@ -170,6 +170,8 @@ p {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-right: 0px;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 .boutonrecherche {
@@ -201,13 +203,12 @@ p {
     justify-content: center;
     border: solid 2px #F2F2F2;
     border-radius: 50px;
-    padding-left: 15px;
     padding-right: 15px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    color: #0065FC;
 }
 
+.filtres i {
+    color: #0065FC;
+}
 
 .formfiltres {
     border: none;
@@ -223,11 +224,17 @@ h2 {
     color: black;
 }
 
+.filtres:hover {
+    background-color: #DEEBFF;
+    border: solid 2px #0065FC;
+}
+
 .boxfiltres i {
     background-color: #DEEBFF;
-    border: solid 2px;
     border-radius: 50px;
     padding: 10px;
+    height: 20px;
+    width: 20px;
 }
 
 .custom-checkbox input[type="checkbox"],
@@ -269,6 +276,7 @@ h2 {
 .partieherbergement {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -278,11 +286,11 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex: 2;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 30px;
     padding-top: 20px;
+    width: 900px;
 }
 
 .blocresultats {
@@ -304,7 +312,7 @@ h2 {
     padding-left: 5px;
     padding-right: 5px;
     border: solid #F2F2F2;
-    box-shadow: 8px 8px 12px #F2F2F2;
+    box-shadow: 8px 8px 15px #fffbfb;
 }
 
 .partieherbergement h1 {
@@ -346,6 +354,7 @@ h2 {
 .plus a {
     text-decoration: none;
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-weight: bold;
     color: black;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -364,6 +373,12 @@ h2 {
 .populairetitre {
     display: flex;
     justify-content: space-between;
+}
+
+.iconestat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .pop {
@@ -394,7 +409,7 @@ h2 {
     margin-bottom: 20px;
     border-radius: 15px;
     border: solid #F2F2F2;
-    box-shadow: 8px 8px 12px #F2F2F2;
+    box-shadow: 8px 8px 15px #fffbfb;
 }
 
 /* #endregion */
@@ -487,7 +502,6 @@ h2 {
     list-style-type: none;
     margin-left: -30px;
     line-height: 2;
-    font-family: "Raleway-Regular.ttf", Arial, Helvetica, sans-serif;
 }
 
 .listes {
@@ -495,6 +509,12 @@ h2 {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway-Regular.ttf", Arial, Helvetica, sans-serif;
 }
 
 /* #endregion */
@@ -513,7 +533,6 @@ h2 {
         text-decoration: none;
         font-weight: bold;
     }
-
 }
 
 /* Adaptation pour tablette */
