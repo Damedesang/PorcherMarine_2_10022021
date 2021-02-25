@@ -42,6 +42,7 @@ body {
     margin: auto;
 }
 
+
 /* #endregion */
 
 /* #region header */
@@ -195,6 +196,8 @@ p {
 /* #region filtres */
 .boxfiltres {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .filtres {
@@ -207,6 +210,8 @@ p {
 }
 
 .filtres i {
+    display: flex;
+    justify-content: center;
     color: #0065FC;
 }
 
