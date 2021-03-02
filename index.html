@@ -14,16 +14,21 @@
     <body>
         <header>
             <!--Logo + menu + inscription-->
+            <div class="tel">
                 <img class="logo" src="images/logo/Reservia.svg" alt="Logo Reservia"/>
-                <nav class="menuhautdroite">
-                    <ul class="menuhaut">
-                        <li><a href="#hebergements">Hébergements</a></li>
-                        <li><a href="#activites">Activités</a></li>
-                    </ul>
-                </nav>
-                <div class="login">
+                <div class="logintel">
                     <a href="#">S'inscrire</a>
                 </div>
+            </div>
+            <nav class="menuhautdroite">
+                <ul class="menuhaut">
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#activites">Activités</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="#">S'inscrire</a>
+            </div>
         </header>
         <div id="hebergements">
             <section>
@@ -36,14 +41,15 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <input class="texterecherche" type="search" value="Marseille,France"/>
-                        <input class="boutonrecherche" type="submit" value="Rechercher"/> 
+                        <input class="boutonrecherche" type="submit" value="Rechercher"/>
+                        <input class="boutonrecherchetel" type="submit" value="&#xf002"/>
                     </fieldset>
                 </form>
             </section>
             <section>
                 <!--Filtres-->
-                <div class="boxfiltres">
                     <h2>Filtres</h2>
+                <div class="boxfiltres">
                     <form method="post" action="#"> 
                         <fieldset class="formfiltres"> 
                             <div class="filtres">
@@ -312,7 +318,7 @@
                 </div>
             </div>
         </section>
-    <footer>
+        <footer>
         <div class="piedpage">
             <div class="listes">
                 <!--Menu A Propos-->
@@ -340,6 +346,6 @@
                 </ul>
             </div>
          </div>
-    </footer>
+        </footer>
     </body>
 </html>

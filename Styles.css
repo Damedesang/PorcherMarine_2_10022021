@@ -45,6 +45,10 @@ nav ul li {
     list-style-type: none;
 }
 
+.logintel {
+    visibility: hidden
+}
+
 .login {
     margin-top: 15px;
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
@@ -132,6 +136,10 @@ p {
     max-width: 400px;
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     padding-right: 0px;
+}
+
+.boutonrecherchetel {
+    visibility: hidden;
 }
 
 .icone {
@@ -397,6 +405,10 @@ h2 {
     box-shadow: 8px 8px 15px #fffbfb;
 }
 
+.popresultats {
+    width: 100%;
+}
+
 /* #endregion */
 
 /* #region activité */
@@ -427,6 +439,7 @@ h2 {
     width: 100%;
     height: 420px;
     object-fit: cover;
+    object-position: top;
 }
 
 .actbloc2 {
@@ -445,6 +458,7 @@ h2 {
     width: 100%;
     height: 140px;
     object-fit: cover;
+    object-position: top;
 }
 
 .actbloc3 {
@@ -457,6 +471,7 @@ h2 {
     width: 100%;
     height: 170px;
     object-fit: cover;
+    object-position: top;
 }
 
 .blocacti {
@@ -504,23 +519,179 @@ a {
 
 /* #endregion */
 
-/* #region mediaqueries */
+/* Mediaqueries */
 
-/* Adaptation pour téléphone */
+/* #region Adaptation pour téléphone */
 @media screen and (max-width:480px) {
-
-    .logo {
-        width: 305px;
-        height: 100px;
+    body {
+        max-width: 480px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 
-    .login a:link {
-        text-decoration: none;
+    /*header*/
+    .menuhautdroite {
+        margin-left: 0px;
+    }
+
+    .menuhaut {
+        width: 100%;
+        display: flex;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .logintel {
+        visibility: visible;
+        margin-top: 15px;
+        font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
         font-weight: bold;
+        color: #0065FC;
     }
-}
 
-/* Adaptation pour tablette */
-@media screen and (max-width:991px) {}
+    .logintel a {
+        text-decoration: none;
+        color: #0065FC;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Regular", Arial, Helvetica, sans-serif;
+    }
 
-/* #endregion */
+    .tel {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*hebergement*/
+
+    .boutonrecherche {
+        display: none;
+    }
+
+    .boutonrecherchetel {
+        visibility: visible;
+        font-family: Font Awesome;
+    }
+
+    /* Filtres*/
+
+    /* partie hebergement */
+    .partieherbergement {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .resultats {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .populaire {
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .blocresultats {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocslogements {
+        width: 100%;
+    }
+
+    .resultats img {
+        width: 100%;
+    }
+
+    .plus {
+        margin-top: 10px;
+    }
+
+    /* Activités */
+    .activites {
+        width: 100%;
+        height: 100%;
+    }
+
+    .actotal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .actbloc {
+        height: 200px;
+        width: 100%;
+    }
+
+    .actbloc2 {
+        height: 400px;
+        width: auto;
+    }
+
+    .actbloc3 {
+        height: 400px;
+        width: auto;
+    }
+
+    .actbloc img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .imgpomegues img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .imgfrioul img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .actbloc3 img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .blocacti {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    .piedpage {
+        width: 100%;
+    }
+
+    .listes {
+        width: 100%;
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    /* #endregion */
+    /* #region Adaptation pour tablette */
+    @media screen and (max-width:991px) {
+        body {
+            max-width: 991px;
+            margin: auto;
+        }
+    }
+
+    /* #endregion */
