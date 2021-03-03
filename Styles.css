@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
 }
 
@@ -285,6 +285,7 @@ h2 {
     padding-right: 20px;
     padding-top: 20px;
     width: 850px;
+    margin-top: 10px;
 }
 
 .blocresultats {
@@ -293,7 +294,6 @@ h2 {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: -80px;
 }
 
 .blocslogement {
@@ -301,10 +301,10 @@ h2 {
     display: flex;
     flex-direction: column;
     height: 200px;
-    width: 245px;
+    width: 240px;
     border-radius: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 5px;
@@ -350,7 +350,7 @@ h2 {
 }
 
 .plus {
-    margin-top: -50px;
+    margin-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -373,6 +373,7 @@ h2 {
     padding-right: 20px;
     padding-top: 20px;
     width: 440px;
+    margin-top: 10px;
 }
 
 .populairetitre {
@@ -392,8 +393,8 @@ h2 {
 }
 
 .popimg {
-    max-height: 150px;
-    max-width: 200px;
+    height: 150px;
+    width: 200px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -401,7 +402,7 @@ h2 {
 
 .populaire img {
     height: 150px;
-    width: 150px;
+    width: 200px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -428,6 +429,18 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.tablette1 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%
+}
+
+.tablette2 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%
 }
 
 .actotal img {
@@ -539,7 +552,7 @@ a {
 
     /* #region Généralité téléphone */
     body {
-        max-width: 375px;
+        width: 375px;
         display: flex;
         flex-direction: column;
     }
@@ -617,9 +630,9 @@ a {
         margin-right: 10px;
     }
 
-    #hebergements p {
-        margin-left: 10px;
+    .partie1 {
         margin-right: 10px;
+        margin-left: 10px;
     }
 
     /* #endregion */
@@ -628,6 +641,8 @@ a {
 
     .information {
         margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: -15px;
     }
 
     /* #endregion */
@@ -667,6 +682,14 @@ a {
         width: 100%;
     }
 
+    .popimg {
+        width: 140px;
+    }
+
+    .populaire img {
+        width: 140px;
+    }
+
     .pop {
         display: flex;
         flex-wrap: wrap;
@@ -675,6 +698,11 @@ a {
     .plus {
         margin-top: 10px;
     }
+
+    .pop i {
+        margin-top: 35px;
+    }
+
 
     /* #endregion */
 
@@ -737,6 +765,21 @@ a {
         margin-bottom: 10px;
     }
 
+    .tablette1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .tablette2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        display: flex;
+    }
+
     /* #endregion */
 
     /* #region Footer */
@@ -760,11 +803,11 @@ a {
 /* #endregion */
 
 /* #region Adaptation pour tablette */
-@media screen and (min-width: 375px max-width:991px) {
+@media screen and (min-width:376px) and (max-width:991px) {
 
     /* #region généralités tablettes */
     body {
-        max-width: 991px;
+        width: 991px;
         display: flex;
         flex-direction: column;
     }
@@ -772,6 +815,9 @@ a {
     /* #endregion */
 
     /* #region header*/
+    header {
+        width: 980px;
+    }
 
     .logo {
         margin-left: 10px;
@@ -781,18 +827,17 @@ a {
 
     /* #region hebergement*/
     #hebergements {
+        width: 980px;
         margin-left: 10px;
         margin-right: 10px;
     }
 
     #hebergements h1 {
         display: flex;
-        justify-content: center;
     }
 
     #hebergements p {
         display: flex;
-        justify-content: center;
     }
 
     form {
@@ -815,21 +860,34 @@ a {
     /* #endregion */
 
     /* #region partiehebergement */
-    .partiehebergement {
+    .partieherbergement {
         display: flex;
         flex-direction: column;
-        width: 991px;
+        width: 980px;
     }
 
     .resultats {
-        max-width: 951px;
         display: flex;
-        justify-items: center;
+        width: 925px;
+    }
+
+    .blocresultats {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .plus {
+        margin-top: 30px;
+        margin-left: 5px;
     }
 
     .populaire {
-        width: 951px;
+        width: 925px;
         margin-top: 15px;
+    }
+
+    .populairetitre {
+        width: 100%;
     }
 
     .popresultats {
@@ -840,15 +898,68 @@ a {
     .poplogement {
         display: flex;
         flex-direction: column;
+        height: 280px;
     }
 
-    .plus {
-        margin-top: 10px;
+    .popimg {
+        width: 100%;
     }
+
+    .populaire img {
+        width: 97%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
 
     /* #endregion */
 
+    /*#region Activités */
 
+    #activites {
+        width: 980px;
+        flex-direction: column;
+    }
+
+    #activites h1 {
+        padding-left: 40px;
+        padding-top: 10px
+    }
+
+    .tablette1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .tablette2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    /* #endregion */
+
+    /* #region Footer */
+    footer {
+        width: 100%;
+        margin-right: auto;
+    }
+
+    .listes {
+        margin-right: auto;
+        padding-bottom: 0px;
+    }
+
+    /* #endregion */
 }
 
 /* #endregion */
