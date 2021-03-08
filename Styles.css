@@ -555,6 +555,7 @@ a {
         max-width: 991px;
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
 
     /* #endregion */
@@ -562,7 +563,6 @@ a {
     /* #region header*/
     header {
         width: 100%;
-        margin: auto;
     }
 
     .logo {
