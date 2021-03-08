@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -261,6 +261,7 @@ h2 {
     justify-content: center;
     color: #0065FC;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 /* #endregion */
@@ -332,7 +333,7 @@ h2 {
 }
 
 .resultats img {
-    width: 100%;
+    width: 96%;
     height: 100px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -552,7 +553,7 @@ a {
 
     /* #region Généralité téléphone */
     body {
-        width: 375px;
+        max-width: 375px;
         display: flex;
         flex-direction: column;
     }
@@ -568,8 +569,8 @@ a {
     .menuhaut {
         width: 335px;
         display: flex;
-        justify-content: space-between;
-        margin-left: 0px;
+        justify-content: space-around;
+        padding-left: 0px;
     }
 
     .login {
@@ -610,6 +611,7 @@ a {
         border-top: none;
         border-bottom: 1px solid #0065FC;
         padding-bottom: 10px;
+        width: 100%;
     }
 
     /* #endregion */
@@ -622,7 +624,7 @@ a {
 
     .boutonrecherchetel {
         visibility: visible;
-        font-family: Font Awesome;
+        font-family: FontAwesome;
     }
 
     #hebergements h1 {
@@ -807,7 +809,7 @@ a {
 
     /* #region généralités tablettes */
     body {
-        width: 991px;
+        max-width: 991px;
         display: flex;
         flex-direction: column;
     }
