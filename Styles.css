@@ -552,7 +552,7 @@ a {
 
     /* #region généralités tablettes */
     body {
-        max-width: 991px;
+        max-width: 1280px;
         display: flex;
         flex-direction: column;
         margin: auto;
