@@ -548,11 +548,11 @@ a {
 /* Mediaqueries */
 
 /* #region Adaptation pour tablette */
-@media screen and (min-width:376px) and (max-width:1280px) {
+@media screen and (min-width:376px) and (max-width:991px) {
 
     /* #region généralités tablettes */
     body {
-        max-width: 1280px;
+        max-width: 991px;
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -611,12 +611,12 @@ a {
     .partieherbergement {
         display: flex;
         flex-direction: column;
-        width: 980px;
+        width: 100%;
     }
 
     .resultats {
         display: flex;
-        width: 925px;
+        width: 100%;
     }
 
     .blocresultats {
@@ -630,7 +630,7 @@ a {
     }
 
     .populaire {
-        width: 925px;
+        width: 100%;
         margin-top: 15px;
     }
 
