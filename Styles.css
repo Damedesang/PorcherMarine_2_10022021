@@ -592,6 +592,10 @@ a {
     /* #endregion */
 
     /* #region Filtres*/
+    .boxfiltres {
+        display: flex;
+        justify-content: center;
+    }
 
     .titrefiltres {
         margin-left: 10px;
