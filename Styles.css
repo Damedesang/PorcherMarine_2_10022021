@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -548,7 +548,7 @@ a {
 /* Mediaqueries */
 
 /* #region Adaptation pour tablette */
-@media screen and (min-width:376px) and (max-width:991px) {
+@media screen and (min-width:376px) and (max-width:1400px) {
 
     /* #region généralités tablettes */
     body {
