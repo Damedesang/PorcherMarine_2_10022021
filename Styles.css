@@ -561,7 +561,8 @@ a {
 
     /* #region header*/
     header {
-        width: 980px;
+        width: 100%;
+        margin: auto;
     }
 
     .logo {
@@ -572,9 +573,7 @@ a {
 
     /* #region hebergement*/
     #hebergements {
-        width: 980px;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 100%;
     }
 
     #hebergements h1 {
@@ -608,7 +607,7 @@ a {
     .partieherbergement {
         display: flex;
         flex-direction: column;
-        width: 980px;
+        width: 100%;
     }
 
     .resultats {
