@@ -547,263 +547,6 @@ a {
 
 /* Mediaqueries */
 
-/* #region Adaptation pour téléphone */
-
-@media screen and (max-width:375px) {
-
-    /* #region Généralité téléphone */
-    body {
-        max-width: 375px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* #endregion */
-
-    /* #region header*/
-    .menuhautdroite {
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    .menuhaut {
-        width: 335px;
-        display: flex;
-        justify-content: space-around;
-        padding-left: 0px;
-    }
-
-    .login {
-        display: none;
-    }
-
-    .logintel {
-        visibility: visible;
-        margin-top: 15px;
-        font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        color: #0065FC;
-    }
-
-    .logintel a {
-        text-decoration: none;
-        color: #0065FC;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-family: "Regular", Arial, Helvetica, sans-serif;
-    }
-
-    .tel {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .logo {
-        margin-left: 10px;
-    }
-
-    nav {
-        width: 335px;
-    }
-
-    nav a:hover {
-        border-top: none;
-        border-bottom: 1px solid #0065FC;
-        padding-bottom: 10px;
-        width: 100%;
-    }
-
-    /* #endregion */
-
-    /* #region hebergement*/
-
-    .boutonrecherche {
-        display: none;
-    }
-
-    .boutonrecherchetel {
-        visibility: visible;
-        font-family: FontAwesome;
-    }
-
-    #hebergements h1 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .partie1 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    /* #endregion */
-
-    /* #region Filtres*/
-
-    .information {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: -15px;
-    }
-
-    /* #endregion */
-
-    /* #region partiehebergement */
-    .partieherbergement {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 375px;
-        margin-left: -5px;
-    }
-
-    .resultats {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        width: 335px;
-    }
-
-    .populaire {
-        border-radius: 0px;
-        max-width: 335px;
-    }
-
-    .blocresultats {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    .blocslogements {
-        width: 100%;
-    }
-
-    .resultats img {
-        width: 100%;
-    }
-
-    .popimg {
-        width: 140px;
-    }
-
-    .populaire img {
-        width: 140px;
-    }
-
-    .pop {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .plus {
-        margin-top: 10px;
-    }
-
-    .pop i {
-        margin-top: 35px;
-    }
-
-
-    /* #endregion */
-
-    /* #region Activités */
-    #activites {
-        width: 335px;
-        height: 100%;
-        padding-left: 15px;
-        padding-right: 20px;
-    }
-
-    .actotal {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .actbloc {
-        height: 200px;
-        width: 100%;
-    }
-
-    .actbloc2 {
-        height: 400px;
-        width: auto;
-    }
-
-    .actbloc3 {
-        height: 400px;
-        width: auto;
-    }
-
-    .actbloc img {
-        height: 120px;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .imgpomegues img {
-        height: 120px;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .imgfrioul img {
-        height: 120px;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .actbloc3 img {
-        height: 120px;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .blocacti {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .tablette1 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .tablette2 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        display: flex;
-    }
-
-    /* #endregion */
-
-    /* #region Footer */
-    .piedpage {
-        width: 375px;
-        margin-left: -5px;
-        margin-top: 30px;
-    }
-
-    .listes {
-        width: 100%;
-        margin-right: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-    }
-
-    /* #endregion */
-}
-
-/* #endregion */
-
 /* #region Adaptation pour tablette */
 @media screen and (min-width:376px) and (max-width:991px) {
 
@@ -959,6 +702,280 @@ a {
     .listes {
         margin-right: auto;
         padding-bottom: 0px;
+    }
+
+    /* #endregion */
+}
+
+/* #endregion */
+
+/* #region Adaptation pour téléphone */
+
+@media screen and (max-width:375px) {
+
+    /* #region Généralité téléphone */
+    body {
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* #endregion */
+
+    /* #region header*/
+    .menuhautdroite {
+        width: 100%;
+    }
+
+    .menuhaut {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0px;
+        border-bottom: 1px solid #DEEBFF;
+        padding-bottom: 10px;
+        margin-top: 30px;
+
+    }
+
+    .login {
+        display: none;
+    }
+
+    .logintel {
+        visibility: visible;
+        margin-top: 15px;
+        font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #0065FC;
+    }
+
+    .logintel a {
+        text-decoration: none;
+        color: #0065FC;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Regular", Arial, Helvetica, sans-serif;
+    }
+
+    .tel {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    nav {
+        width: 335px;
+    }
+
+    nav a:hover {
+        border-top: none;
+        border-bottom: 1px solid #0065FC;
+        padding-bottom: 10px;
+    }
+
+    /* #endregion */
+
+    /* #region hebergement*/
+    .texte {
+        margin-left: 10px;
+    }
+
+    .boutonrecherche {
+        display: none;
+    }
+
+    .boutonrecherchetel {
+        visibility: visible;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px;
+        width: 50px;
+        border: none;
+    }
+
+    #hebergements h1 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .partie1 {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /* #endregion */
+
+    /* #region Filtres*/
+
+    .information {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: -15px;
+    }
+
+    .boxfiltres {
+        margin-left: -10px;
+    }
+
+    /* #endregion */
+
+    /* #region partiehebergement */
+    .partieherbergement {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 375px;
+        margin-left: -5px;
+    }
+
+    .resultats {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .populaire {
+        border-radius: 0px;
+        max-width: 335px;
+    }
+
+    .blocresultats {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .blocslogement {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .resultats img {
+        width: 97%;
+    }
+
+    .popimg {
+        width: 140px;
+    }
+
+    .populaire img {
+        width: 140px;
+    }
+
+    .pop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plus {
+        margin-top: 20px;
+        margin-left: 6px;
+    }
+
+    .pop i {
+        margin-top: 35px;
+    }
+
+
+    /* #endregion */
+
+    /* #region Activités */
+    #activites {
+        width: 335px;
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    .actotal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .actbloc {
+        height: 200px;
+        width: 100%;
+    }
+
+    .actbloc2 {
+        height: 400px;
+        width: auto;
+    }
+
+    .actbloc3 {
+        height: 400px;
+        width: auto;
+    }
+
+    .actbloc img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .imgpomegues img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .imgfrioul img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .actbloc3 img {
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .blocacti {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .tablette1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .tablette2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        display: flex;
+    }
+
+    /* #endregion */
+
+    /* #region Footer */
+    .piedpage {
+        width: 375px;
+        margin-left: -5px;
+        margin-top: 30px;
+    }
+
+    .listes {
+        width: 100%;
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
     }
 
     /* #endregion */
