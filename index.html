@@ -15,24 +15,26 @@
         <header>
             <!--Logo + menu + inscription-->
             <div class="tel">
-                <img class="logo" src="images/logo/Reservia.svg" alt="Logo Reservia"/>
+                <img src="images/logo/Reservia.svg" alt="Logo Reservia"/>
                 <div class="logintel">
                     <a href="#">S'inscrire</a>
                 </div>
             </div>
-            <nav class="menuhautdroite">
-                <ul class="menuhaut">
-                    <li><a href="#hebergements">Hébergements</a></li>
-                    <li><a href="#activites">Activités</a></li>
-                </ul>
-            </nav>
-            <div class="login">
-                <a href="#">S'inscrire</a>
+            <div class="menuhautdroite">
+                <nav>
+                    <ul class="menuhaut">
+                        <li><a href="#hebergements">Hébergements</a></li>
+                        <li><a href="#activites">Activités</a></li>
+                    </ul>
+                </nav>
+                <div class="login">
+                    <a href="#">S'inscrire</a>
+                </div>
             </div>
         </header>
         <div id="hebergements">
-            <section>
-                <!-- Barre recherche-->
+             <!-- Barre recherche-->
+            <section class="recherche">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="texte">En plein centre ville ou en pleine nature</p>
                 <form method="post" action="#"> 
@@ -45,58 +47,39 @@
                         <button class="boutonrecherchetel" type="submit">
                             <i class="fas fa-search"></i>
                         </button>
-                        
                     </fieldset>
                 </form>
             </section>
+            <!--Filtres-->
             <section>
-                <!--Filtres-->
-                <h2 class="titrefiltres">Filtres</h2>
-                <div class="boxfiltres">
-                    <form method="post" action="#"> 
-                        <fieldset class="formfiltres"> 
-                            <div class="filtres">
-                                <label class="custom-checkbox">
-                                    <input type="checkbox">
-                                    <i class="fas fa-money-bill-wave"></i>
-                                </label>
+                <div class="filtrestotal">
+                    <h2 class="titrefiltres">Filtres</h2>
+                    <div class="boxfiltres">
+                        <div class="formfiltres">
+                            <button type="submit" class="filtres">
+                                <i class="fas fa-money-bill-wave"></i>
                                 <h2>Économique</h2>
-                            </div>
-                        </fieldset>
-                    </form>
-                    <form method="post" action="#"> 
-                        <fieldset class="formfiltres"> 
-                            <div class="filtres">
-                                <label class="custom-checkbox">
-                                    <input type="checkbox">
-                                    <i class="fas fa-child"></i>
-                                </label>
+                            </button>
+                        </div>
+                        <div class="formfiltres">
+                            <button type="submit" class="filtres">
+                                <i class="fas fa-child"></i>
                                 <h2>Famillial</h2>
-                            </div>
-                        </fieldset>
-                    </form>
-                    <form method="post" action="#"> 
-                        <fieldset class="formfiltres"> 
-                            <div class="filtres">
-                                <label class="custom-checkbox">
-                                    <input type="checkbox">
-                                    <i class="fas fa-heart"></i>
-                                </label>
+                            </button>
+                        </div>
+                        <div class="formfiltres">
+                            <button type="submit" class="filtres">
+                                <i class="fas fa-heart"></i>
                                 <h2>Romantique</h2>
-                            </div>
-                        </fieldset>
-                    </form>
-                    <form method="post" action="#"> 
-                        <fieldset class="formfiltres"> 
-                            <div class="filtres">
-                                <label class="custom-checkbox">
-                                    <input type="checkbox">
-                                    <i class="fas fa-dog"></i>
-                                </label>
+                            </button>
+                        </div>
+                        <div class="formfiltres">
+                            <button type="submit" class="filtres">
+                                <i class="fas fa-dog"></i>
                                 <h2>Animaux autorisés</h2>
-                            </div>
-                        </fieldset>
-                    </form>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="information">
                     <div class="iconeinfo">
@@ -105,9 +88,8 @@
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
+            <!--Résultats + Populaire-->
             <section class="partieherbergement">
-                <!--Résultats + catégorie populaire-->
-                    <!--Résultats-->
                 <div class="resultats">
                     <h1>Hébergements à Marseille</h1>
                     <div class="blocresultats">
@@ -266,93 +248,94 @@
                     </div>
                 </div>
             </section>
+            <!-- Activités-->
+            <section id="activites">
+                <!--Activités dans la ville-->
+                <h1>Activités à Marseille</h1>
+                <div class="actotal">
+                    <div class="tablette1">
+                        <div class="actbloc">
+                            <div class="blocacti">
+                                <a href="#">
+                                    <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port de Marseille">
+                                    <h2>Vieux Port</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="actbloc2">
+                            <div class="blocacti">
+                                <a href="#">
+                                    <div class="imgpomegues">
+                                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                                        <h2>Fort de Pomègues</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="blocacti">
+                                <a href="#">
+                                    <div class="imgfrioul">
+                                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul">
+                                        <h2>Îles du Frioul</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tablette2">
+                        <div class="actbloc">
+                            <div class="blocacti">
+                                <a href="#">
+                                    <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
+                                    <h2>Parc National des Calanques</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="actbloc3">
+                            <div class="blocacti">
+                                <a href="#">
+                                    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                                    <h2>Notre-Dame-de-la-Garde</h2>
+                                </a>
+                            </div>
+                            <div class="blocacti">
+                                <a href="#">
+                                    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+                                    <h2>Parc Longchamp</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <section id="activites">
-            <!--Activités dans la ville-->
-            <h1>Activités à Marseille</h1>
-            <div class="actotal">
-                <div class="tablette1">
-                    <div class="actbloc">
-                        <div class="blocacti">
-                            <a href="#">
-                                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port de Marseille">
-                                <h2>Vieux Port</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="actbloc2">
-                        <div class="blocacti">
-                            <a href="#">
-                                <div class="imgpomegues">
-                                    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
-                                    <h2>Fort de Pomègues</h2>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="blocacti">
-                            <a href="#">
-                                <div class="imgfrioul">
-                                    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul">
-                                    <h2>Îles du Frioul</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tablette2">
-                    <div class="actbloc">
-                        <div class="blocacti">
-                            <a href="#">
-                                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
-                                <h2>Parc National des Calanques</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="actbloc3">
-                        <div class="blocacti">
-                            <a href="#">
-                                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
-                                <h2>Notre-Dame-de-la-Garde</h2>
-                            </a>
-                        </div>
-                        <div class="blocacti">
-                            <a href="#">
-                                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
-                                <h2>Parc Longchamp</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
         <footer>
-        <div class="piedpage">
-            <div class="listes">
+            <div class="piedpage">
                 <!--Menu A Propos-->
-                <h2>A propos</h2>
-                <ul>
-                    <li><a href="#">Fonctionnement du site</a></li>
-                    <li><a href="#">Conditions générales du site</a></li>
-                    <li><a href="#">Données et condifentialité</a></li>
-                </ul>
-            </div>
-            <div class="listes">
+                <div class="listes">
+                    <h2>A propos</h2>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales du site</a></li>
+                        <li><a href="#">Données et condifentialité</a></li>
+                    </ul>
+                </div>
                 <!--Menu Nos hébérgements-->
-                <h2>Nos hébergements</h2>
-                <ul>
-                    <li><a href="#">Charte qualité</a></li>
-                    <li><a href="#">Soumettre votre hôtel</a></li>
-                </ul>
-            </div>
-            <div class="listes">
+                <div class="listes">
+                    <h2>Nos hébergements</h2>
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Soumettre votre hôtel</a></li>
+                    </ul>
+                </div>
                 <!--Menu Assistance-->
-                <h2>Assistance</h2>
-                <ul>
-                    <li><a href="#">Centre d'aide</a></li>
-                    <li><a href="#">Nous contacter</a></li>
-                </ul>
-            </div>
-         </div>
+                <div class="listes">
+                    <h2>Assistance</h2>
+                    <ul>
+                        <li><a href="#">Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
+             </div>
         </footer>
     </body>
 </html>
