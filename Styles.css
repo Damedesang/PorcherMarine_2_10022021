@@ -692,7 +692,6 @@ a {
 
     /* #region Footer */
     footer {
-        width: 991px;
         margin: 0px;
     }
 
@@ -712,7 +711,7 @@ a {
 
     /* #region Généralité téléphone */
     body {
-        max-width: 375px;
+        max-width: 750px;
         display: flex;
         flex-direction: column;
     }
@@ -965,8 +964,13 @@ a {
     /* #endregion */
 
     /* #region Footer */
+    footer {
+        width: 750px;
+        margin: 0px;
+    }
+
     .piedpage {
-        width: 375px;
+        width: 100%;
         margin-left: -5px;
         margin-top: 30px;
     }
