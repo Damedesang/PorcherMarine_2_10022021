@@ -192,16 +192,19 @@ nav a:active {
 }
 
 .boxfiltres i {
+    position: absolute;
     background-color: #DEEBFF;
     border-radius: 50px;
-    padding: 10px;
+    padding: 20px;
+    margin-left: -7px;
 }
 
-.boxfiltres p {
+.choix {
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-size: 15px;
     padding-left: 10px;
     color: black;
+    margin-left: 46px;
 }
 
 button {
