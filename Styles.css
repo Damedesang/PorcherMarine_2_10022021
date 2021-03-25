@@ -205,6 +205,8 @@ nav a:active {
     padding-left: 10px;
     color: black;
     margin-left: 46px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 button {
