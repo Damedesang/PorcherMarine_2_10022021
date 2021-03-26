@@ -3,6 +3,7 @@
 /* #region HTML général */
 @font-face {
     font-family: "Raleway";
+    src: url()
 }
 
 body {
@@ -422,6 +423,10 @@ button {
     justify-content: space-between;
 }
 
+.gris {
+    color: #DEEBFF;
+}
+
 /* #endregion */
 
 /* #region Activités */
@@ -776,37 +781,13 @@ a {
         justify-content: space-between;
         border-bottom: 1px solid #DEEBFF;
         margin-top: 30px;
-        margin-left: 40px;
     }
 
     .login {
-        /* display: none; */
         position: relative;
-        bottom: 50px;
-        right: 24px;
+        bottom: 112px;
+        left: 281px;
     }
-
-    /* .logintel {
-        visibility: visible;
-        margin-top: 15px;
-        font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        color: #0065FC;
-    }
-
-    .logintel a {
-        text-decoration: none;
-        color: #0065FC;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-family: "Regular", Arial, Helvetica, sans-serif;
-    } */
-    /* 
-    .tel {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    } */
 
     .logo {
         margin-left: 15px;
@@ -1010,7 +991,7 @@ a {
     .imgfrioul img {
         height: 120px;
         object-fit: cover;
-        object-position: center;
+        object-position: 50% 20%;
     }
 
     .actbloc3 img {
