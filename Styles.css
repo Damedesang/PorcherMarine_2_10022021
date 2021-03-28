@@ -1,9 +1,28 @@
 /* #region Desktop */
 
-/* #region HTML général */
+/* #region  Généralité HTML */
 @font-face {
     font-family: "Raleway";
-    src: url()
+    src: local('Police/Raleway-Black.ttf');
+    src: local('Police/Raleway-BlackItalic.ttf');
+    src: local('Police/Raleway-Bold.ttf');
+    src: local('Police/Raleway-BoldItalic.ttf');
+    src: local('Police/Raleway-ExtraBold.ttf');
+    src: local('Police/Raleway-ExtraBoldItalic.ttf');
+    src: local('Police/Raleway-ExtraLight.ttf');
+    src: local('Police/Raleway-ExtraLightItalic.ttf');
+    src: local('Police/Raleway-Italic.ttf');
+    src: local('Police/Raleway-Italic-VariableFont_wght.ttf');
+    src: local('Police/Raleway-Light.ttf');
+    src: local('Police/Raleway-LightItalic.ttf');
+    src: local('Police/Raleway-Medium.ttf');
+    src: local('Police/Raleway-MediumItalic.ttf');
+    src: local('Police/Raleway-Regular.ttf');
+    src: local('Police/Raleway-SemiBold.ttf');
+    src: local('Police/Raleway-SemiBoldItalic.ttf');
+    src: local('Police/Raleway-Thin.ttf');
+    src: local('Police/Raleway-ThinItalic.ttf');
+    src: local('Police/Raleway-VariableFont_wght.ttf');
 }
 
 body {
@@ -13,7 +32,7 @@ body {
 
 /* #endregion */
 
-/* #region Header */
+/* #region header */
 
 header {
     display: flex;
@@ -22,8 +41,8 @@ header {
     margin-top: 20px;
 }
 
-.logintel {
-    visibility: hidden;
+.alignement {
+    display: flex;
 }
 
 nav ul li {
@@ -50,58 +69,37 @@ ul {
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #0065FC;
+    margin-top: 20px;
 }
 
 .login a {
     text-decoration: none;
     color: #0065FC;
-    font-family: "Regular", Arial, Helvetica, sans-serif;
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
-    font-family: "Regular", Arial, Helvetica, sans-serif;
-}
-
-nav a:link {
-    text-decoration: none;
-    color: black;
-    font-family: "Regular", Arial, Helvetica, sans-serif;
-}
-
+nav a,
+nav a:link,
 nav a:visited {
     text-decoration: none;
     color: black;
-    font-family: "Regular", Arial, Helvetica, sans-serif;
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
 }
 
-nav a:focus {
-    text-decoration: none;
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
-    padding-top: 20px;
-    font-family: "Regular", Arial, Helvetica, sans-serif;
-}
 
+nav a:focus,
+nav a:active,
 nav a:hover {
     text-decoration: none;
     color: #0065FC;
     border-top: 1px solid #0065FC;
     padding-top: 20px;
-    font-family: "Regular", Arial, Helvetica, sans-serif;
 }
 
-nav a:active {
-    text-decoration: none;
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
-    padding-top: 20px;
-}
 
 /* #endregion */
 
-/* #region Barre de recherche */
+/* #region barre de recherche */
 
 .recherche h1 {
     font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
@@ -158,7 +156,7 @@ nav a:active {
 
 /* #endregion */
 
-/* #region Filtres */
+/* #region filtres */
 .filtrestotal {
     display: flex;
 }
@@ -424,12 +422,12 @@ button {
 }
 
 .gris {
-    color: #DEEBFF;
+    color: rgb(230, 225, 225);
 }
 
 /* #endregion */
 
-/* #region Activités */
+/* #region activités */
 
 .actotal {
     display: flex;
@@ -519,7 +517,7 @@ button {
 
 /* #endregion */
 
-/* #region Footer */
+/* #region footer */
 
 .piedpage {
     display: flex;
@@ -557,7 +555,7 @@ a {
 /* #region Adaptation pour tablette */
 @media screen and (min-width:481px) and (max-width:991px) {
 
-    /* #region généralités tablettes */
+    /* #region Généralités tablettes */
     body {
         max-width: 991px;
         display: flex;
@@ -768,6 +766,11 @@ a {
         width: 100%;
     }
 
+    .alignement {
+        display: flex;
+        flex-direction: column;
+    }
+
     nav ul li {
         margin-left: 0px;
         width: 50%;
@@ -787,6 +790,13 @@ a {
         position: relative;
         bottom: 112px;
         left: 281px;
+        margin-top: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .logo {
