@@ -1,33 +1,11 @@
 /* #region Desktop */
 
 /* #region  Généralité HTML */
-@font-face {
-    font-family: "Raleway";
-    src: local('Police/Raleway-Black.ttf');
-    src: local('Police/Raleway-BlackItalic.ttf');
-    src: local('Police/Raleway-Bold.ttf');
-    src: local('Police/Raleway-BoldItalic.ttf');
-    src: local('Police/Raleway-ExtraBold.ttf');
-    src: local('Police/Raleway-ExtraBoldItalic.ttf');
-    src: local('Police/Raleway-ExtraLight.ttf');
-    src: local('Police/Raleway-ExtraLightItalic.ttf');
-    src: local('Police/Raleway-Italic.ttf');
-    src: local('Police/Raleway-Italic-VariableFont_wght.ttf');
-    src: local('Police/Raleway-Light.ttf');
-    src: local('Police/Raleway-LightItalic.ttf');
-    src: local('Police/Raleway-Medium.ttf');
-    src: local('Police/Raleway-MediumItalic.ttf');
-    src: local('Police/Raleway-Regular.ttf');
-    src: local('Police/Raleway-SemiBold.ttf');
-    src: local('Police/Raleway-SemiBoldItalic.ttf');
-    src: local('Police/Raleway-Thin.ttf');
-    src: local('Police/Raleway-ThinItalic.ttf');
-    src: local('Police/Raleway-VariableFont_wght.ttf');
-}
 
 body {
     max-width: 1400px;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* #endregion */
@@ -66,7 +44,7 @@ ul {
 }
 
 .login {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #0065FC;
     margin-top: 20px;
@@ -75,7 +53,7 @@ ul {
 .login a {
     text-decoration: none;
     color: #0065FC;
-    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav a,
@@ -83,7 +61,7 @@ nav a:link,
 nav a:visited {
     text-decoration: none;
     color: black;
-    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -102,12 +80,13 @@ nav a:hover {
 /* #region barre de recherche */
 
 .recherche h1 {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     margin-left: 10px;
 }
 
 .recherche p {
-    font-family: "Regular", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-left: 10px;
 }
 
@@ -119,7 +98,8 @@ nav a:hover {
     display: flex;
     border: none;
     max-width: 400px;
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .icone {
@@ -134,11 +114,11 @@ nav a:hover {
 
 .texterecherche {
     border: solid 0.5px #F2F2F2;
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
-    font-weight: bold;
 }
 
 .boutonrecherche {
@@ -147,7 +127,8 @@ nav a:hover {
     border-top-right-radius: 15px;
     background-color: #0065FC;
     color: white;
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 15px;
@@ -199,7 +180,8 @@ nav a:hover {
 }
 
 .choix {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 15px;
     padding-left: 10px;
     color: black;
@@ -232,14 +214,15 @@ button {
 }
 
 .titrefiltres {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 17px;
     padding-left: 10px;
     color: black;
 }
 
 .information p {
-    font-family: "Regular", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* #endregion */
@@ -268,7 +251,8 @@ button {
 }
 
 .resultats h1 {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     margin-left: 10px;
 }
 
@@ -313,13 +297,14 @@ button {
 }
 
 .partieherbergement h2 {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 17px;
     padding-left: 10px;
 }
 
 .partieherbergement p {
-    font-family: "Regular", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding-left: 10px;
     margin-top: 0px;
     line-height: 0px;
@@ -346,7 +331,7 @@ button {
 
 .plus a {
     text-decoration: none;
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: black;
     margin-top: 30px;
@@ -455,7 +440,8 @@ button {
 .actotal h2 {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 17px;
     padding-left: 10px;
 }
@@ -511,7 +497,8 @@ button {
 }
 
 #activites h1 {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     margin-left: 10px;
 }
 
@@ -526,7 +513,8 @@ button {
 }
 
 .piedpage h2 {
-    font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -545,7 +533,7 @@ button {
 a {
     text-decoration: none;
     color: black;
-    font-family: "Raleway-Regular.ttf", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* #endregion */
