@@ -775,9 +775,9 @@ a {
     }
 
     .login {
-        position: relative;
-        bottom: 112px;
-        left: 281px;
+        position: absolute;
+        top: 39px;
+        right: 35px;
         margin-top: 0px;
     }
 
