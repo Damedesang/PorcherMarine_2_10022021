@@ -594,7 +594,7 @@ a {
 
     /* #region partiehebergement */
     #hebergements {
-        width: 95%;
+        width: 91%;
         margin: auto;
     }
 
@@ -699,8 +699,8 @@ a {
         flex-direction: row-reverse;
         justify-content: space-around;
         width: 100%;
-        padding-left: 50px;
-        padding-right: 50px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
     }
 
     .tablette2 {
@@ -708,8 +708,8 @@ a {
         flex-direction: row;
         width: 100%;
         padding-top: 5px;
-        padding-left: 50px;
-        padding-right: 50px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
     }
 
 
